@@ -1,0 +1,33 @@
+./
+  .env.example
+  README.md
+  next-env.d.ts
+  next.config.js
+  package.json
+  tsconfig.json
+src/
+  src/app/
+    globals.css
+    layout.tsx
+    page.tsx
+    src/app/api/
+      src/app/api/logs/
+        src/app/api/logs/ingest/
+          route.ts
+        src/app/api/logs/search/
+          route.ts
+      src/app/api/projects/
+        route.ts
+      src/app/api/stats/
+        route.ts
+    src/app/projects/
+      page.tsx
+    src/app/tester/
+      page.tsx
+  src/lib/
+    db.ts
+  src/models/
+    LogEvent.ts
+    Project.ts
+  src/utils/
+    apiKey.ts
